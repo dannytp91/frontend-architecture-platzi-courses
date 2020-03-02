@@ -6,54 +6,58 @@
         <!-- <meta name="keywords" content="Danny Trujillo, javascript developer, frontend developer, python developer, alexander trujillo pulgarin, danny alexander trujillo pulgarin">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
          -->
-         <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+        <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="styles.css">
         <title>Leonidas</title>
     </head>
     <body>
-        <header>
+        <header class="header">
             <div>
-                <figure>
+                <figure class="logo">
                     <img src="./images/logo.png" alt="Logo de Leonidas Esteban">
                 </figure>
             </div>
-            <nav>
+            <nav class="menu">
                 <ul>
                     <li>
-                        <a href="#portfolio">Portafolio</a>
+                        <a class="link" href="#portfolio">Portafolio</a>
                     </li>
                     <li>
-                        <a href="#experiences">Experiencia</a>
+                        <a class="link" href="#experiences">Experiencia</a>
                     </li>
                     <li>
-                        <a href="#work-together">Trabajemos juntos</a>
+                        <a class="link" href="#work-together">Trabajemos juntos</a>
                     </li>
                 </ul>
             </nav>
         </header>
-        <section>
-            <h1>Hola Soy <strong>Danny Trujillo</strong>, <br/> 
-                Desarrollador<strong> Javascript y Python</strong>,
+        <section class="hero">
+            <h1>Hola Soy <strong>Leonidas Esteban</strong>, <br/>
+                Desarrollador<strong> Javascript</strong>,
                 apasionado en <strong>aprender y mejorar</strong>
             </h1>
             <img src="./images/hero.jpg" width="500" alt="Imagen de portada">
         </section>
-        <section id="portfolio">
+        <section id="portfolio" class="portfolio">
             <h2>Portfolio (Proyectos destacados)</h2>
-            <article>
-                <h3>Areacomercial</h3>
-                <h6>Angularjs / Django-Python</h6>
-                <p><small><strong>Fecha:</strong>01/07/2018</small></p>
-                <p><small><strong>Puedes verlo en:</strong>url aquí</small></p>
+            <article class="project">
+                <h3 class="project__title">Areacomercial</h3>
+                <h6 class="project__course">Angularjs / Django-Python</h6>
+                <p class="project__date"><small><strong>Fecha:</strong>01/07/2018</small></p>
+                <p class="project__url"><small><strong>Puedes verlo en:</strong>url aquí</small></p>
                 <p>Area comercial es un proyecto realizado para la empresa Constructora JYP
                     Es un proyecto que permite la integración del area de ventas de la empresa
                     facilitando y agilizando todo el acompañamiento en la venta de un inmueble
                 </p>
-                <img src="./images/platzi-video-react-native.png" width="500" alt="">
+                <figure class="project__imageContainer">
+                    <img class="project__image" src="./images/platzi-video-react-native.png" width="500" alt="">
+                </figure>
+
             </article>
         </section>
         <section id="experiences">
             <h2>Más sobre mi experiencia</h2>
-            <article>
+            <article class="experience">
                 <figure>
                     <img src="./images/platzi-conf.jpg" width="500" alt="">
                 </figure>
